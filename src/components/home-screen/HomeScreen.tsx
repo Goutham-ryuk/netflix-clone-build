@@ -1,5 +1,91 @@
+import NavBar from "../nav-bar/nav-bar";
+import { HomeScreenContainer } from "./HomeScreen.styled";
+
 const HomeScreen: React.FunctionComponent = () => {
-  return <div className="homeScreen"></div>;
+  return (
+    <HomeScreenContainer>
+      <NavBar />
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+      <h1>TEST</h1>
+    </HomeScreenContainer>
+  );
 };
 
 export default HomeScreen;
