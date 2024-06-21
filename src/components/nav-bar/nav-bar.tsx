@@ -1,14 +1,9 @@
 import React, { useEffect, useState } from "react";
-import {
-  NavBarContainer,
-  ImageParentContainer,
-  avatarStyle,
-  netflixLogoStyle,
-} from "./nav-bar.styled";
 import NetflixLogo from "../../attachments/NetflixLogo.jpg";
 import Avatar from "../../attachments/Avatar.png";
+import "./nav-bar.css";
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
   const [isNavBarVisible, setNavBarVisible] = useState(false);
 
   const handleScroll = () => {
@@ -23,12 +18,12 @@ const NavBar = () => {
   }, []);
 
   return (
-    <NavBarContainer showBackgroundColor={isNavBarVisible}>
-      <ImageParentContainer>
-        <img src={NetflixLogo} alt="Netflix Logo" style={netflixLogoStyle} />
-        <img src={Avatar} alt="Avatar" style={avatarStyle} />
-      </ImageParentContainer>
-    </NavBarContainer>
+    <div className={`nav ${!isNavBarVisible && `nav__black`}`}>
+      <div className="nav__contents">
+        <img className="nav__logo" src={NetflixLogo} alt="Netflix Logo" />
+        <img className="nav__avatar" src={Avatar} alt="Avatar" />
+      </div>
+    </div>
   );
 };
 
