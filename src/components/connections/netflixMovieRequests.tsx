@@ -1,4 +1,4 @@
-export const API_KEY = "c6b53147c82deb81adeaf6095faa3bef";
+export const API_KEY = process.env.REACT_APP_API_KEY;
 
 export const netflixMovieRequests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
